@@ -1,0 +1,13 @@
+PORTA_SERIAL = "/dev/serial0"
+BAUDRATE = 57600
+
+TIMEOUT_SERIAL = 2.0
+TIMEOUT_DEDO = 20.0
+INTERVALO_POLLING = 0.15
+
+AS608_ENDERECO = 0xFFFFFFFF
+AS608_HEADER = bytes((0xEF, 0x01))
+
+# Ajuste conforme a capacidade real do seu modulo.
+AS608_ID_MIN = 1
+AS608_ID_MAX = 299

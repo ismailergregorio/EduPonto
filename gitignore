@@ -1,0 +1,96 @@
+# ==========================================
+# Python
+# ==========================================
+
+# Cache e arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.env/
+.python-version
+
+# Variáveis de ambiente e configurações locais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# IDEs
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Sistema operacional
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Arquivos temporários
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*~
+*.orig
+
+# ==========================================
+# Raspberry Pi / imagens do sistema
+# ==========================================
+
+*.img
+*.img.xz
+*.img.gz
+*.iso
+
+# ==========================================
+# Banco de dados local
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Chaves e certificados
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
